@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rangsimanjera.SKGuard"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rangsimanjera.SKGuard"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "scheme": "SKGuard",
+    "extra": {
+      "eas": {
+        "projectId": "ee16b2dd-06d8-4ff0-8f9c-e418a0cd3f95"
+      }
     }
   }
 }
